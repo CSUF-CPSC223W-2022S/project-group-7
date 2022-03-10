@@ -15,6 +15,9 @@
 		7A04E1F227C7E6DF0042F13F /* WhatToWear_Project_Group_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A04E1F127C7E6DF0042F13F /* WhatToWear_Project_Group_7UITests.swift */; };
 		7A04E1F427C7E6DF0042F13F /* WhatToWear_Project_Group_7UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A04E1F327C7E6DF0042F13F /* WhatToWear_Project_Group_7UITestsLaunchTests.swift */; };
 		7A04E20127C7E75E0042F13F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7A04E20027C7E75E0042F13F /* .gitignore */; };
+		7A069E2927D943FB00727CC3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A069E2827D943FB00727CC3 /* Storyboard.storyboard */; };
+		7A069E2C27D948C400727CC3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A069E2B27D948C400727CC3 /* Storyboard.storyboard */; };
+		7A069E3027D9D2F300727CC3 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A069E2F27D9D2F300727CC3 /* Clothing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		7A04E1F127C7E6DF0042F13F /* WhatToWear_Project_Group_7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToWear_Project_Group_7UITests.swift; sourceTree = "<group>"; };
 		7A04E1F327C7E6DF0042F13F /* WhatToWear_Project_Group_7UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToWear_Project_Group_7UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7A04E20027C7E75E0042F13F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7A069E2827D943FB00727CC3 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7A069E2B27D948C400727CC3 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		7A069E2F27D9D2F300727CC3 /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +103,9 @@
 		7A04E1D527C7E6D60042F13F /* WhatToWear Project Group 7 */ = {
 			isa = PBXGroup;
 			children = (
+				7A069E2A27D948A900727CC3 /* Collection Viewer */,
 				7A04E1D627C7E6D60042F13F /* WhatToWear_Project_Group_7App.swift */,
+				7A069E2827D943FB00727CC3 /* Storyboard.storyboard */,
 				7A04E1D827C7E6D60042F13F /* ContentView.swift */,
 				7A04E1DA27C7E6DF0042F13F /* Assets.xcassets */,
 				7A04E1DC27C7E6DF0042F13F /* Preview Content */,
@@ -128,6 +136,15 @@
 				7A04E1F327C7E6DF0042F13F /* WhatToWear_Project_Group_7UITestsLaunchTests.swift */,
 			);
 			path = "WhatToWear Project Group 7UITests";
+			sourceTree = "<group>";
+		};
+		7A069E2A27D948A900727CC3 /* Collection Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				7A069E2B27D948C400727CC3 /* Storyboard.storyboard */,
+				7A069E2F27D9D2F300727CC3 /* Clothing.swift */,
+			);
+			path = "Collection Viewer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +252,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A04E1DE27C7E6DF0042F13F /* Preview Assets.xcassets in Resources */,
+				7A069E2927D943FB00727CC3 /* Storyboard.storyboard in Resources */,
 				7A04E20127C7E75E0042F13F /* .gitignore in Resources */,
 				7A04E1DB27C7E6DF0042F13F /* Assets.xcassets in Resources */,
+				7A069E2C27D948C400727CC3 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A04E1D927C7E6D60042F13F /* ContentView.swift in Sources */,
+				7A069E3027D9D2F300727CC3 /* Clothing.swift in Sources */,
 				7A04E1D727C7E6D60042F13F /* WhatToWear_Project_Group_7App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
