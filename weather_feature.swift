@@ -7,6 +7,21 @@
 
 import Foundation
 
-struct weather {
-    // get an API or make up a weather pattern
+class Weather {
+    var location: String
+    var tempertature: Double
+    var weatherType: String
+    var windSpeed: Int
+    
+    init(_ location: String, at temperature: Double, with weatherType: String, and windSpeed: Int) {
+        self.location = location
+        self.tempertature = temperature
+        self.weatherType = weatherType
+        self.windSpeed = windSpeed
+        
+      }
+    func weatherInfo() {
+        print("\(location) @ \(tempertature) with \(weatherType) and \(windSpeed)")
+    }
 }
+
