@@ -18,6 +18,8 @@
 		7A069E2927D943FB00727CC3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A069E2827D943FB00727CC3 /* Storyboard.storyboard */; };
 		7A069E2C27D948C400727CC3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A069E2B27D948C400727CC3 /* Storyboard.storyboard */; };
 		7A069E3027D9D2F300727CC3 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A069E2F27D9D2F300727CC3 /* Clothing.swift */; };
+		7A11EDAF27E974E100C457C4 /* SunnyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11EDAE27E974E100C457C4 /* SunnyCollectionViewCell.swift */; };
+		7A11EDB127E9754100C457C4 /* SunnyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11EDB027E9754100C457C4 /* SunnyCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		7A069E2827D943FB00727CC3 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		7A069E2B27D948C400727CC3 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		7A069E2F27D9D2F300727CC3 /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
+		7A11EDAE27E974E100C457C4 /* SunnyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyCollectionViewCell.swift; sourceTree = "<group>"; };
+		7A11EDB027E9754100C457C4 /* SunnyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				7A04E1D827C7E6D60042F13F /* ContentView.swift */,
 				7A04E1DA27C7E6DF0042F13F /* Assets.xcassets */,
 				7A04E1DC27C7E6DF0042F13F /* Preview Content */,
+				7A11EDAE27E974E100C457C4 /* SunnyCollectionViewCell.swift */,
+				7A11EDB027E9754100C457C4 /* SunnyCollectionViewController.swift */,
 			);
 			path = "WhatToWear Project Group 7";
 			sourceTree = "<group>";
@@ -280,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A11EDAF27E974E100C457C4 /* SunnyCollectionViewCell.swift in Sources */,
 				7A04E1D927C7E6D60042F13F /* ContentView.swift in Sources */,
 				7A069E3027D9D2F300727CC3 /* Clothing.swift in Sources */,
 				7A04E1D727C7E6D60042F13F /* WhatToWear_Project_Group_7App.swift in Sources */,
+				7A11EDB127E9754100C457C4 /* SunnyCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

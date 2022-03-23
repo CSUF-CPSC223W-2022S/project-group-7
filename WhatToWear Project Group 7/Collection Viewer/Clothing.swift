@@ -7,7 +7,7 @@
 
 import Foundation
 //structure for each image of their respective clothing item
-struct Clothing {
+struct Sunny {
     var image:String = ""
     var name:String = ""
     
@@ -16,4 +16,31 @@ struct Clothing {
         self.name = name
     }
 }
-//going to use a Collection View Controller to display each image correspondent to the weather based on the API or weather pattern
+struct Windy {
+    var image:String = ""
+    var name:String = ""
+    
+    init(image: String, name: String){
+        self.image = image
+        self.name = name
+    }
+}
+struct Rainy {
+    var image:String = ""
+    var name:String = ""
+    
+    init(image: String, name: String){
+        self.image = image
+        self.name = name
+    }
+}
+struct Cloudy {
+    var image:String = ""
+    var name:String = ""
+    
+    init(image: String, name: String){
+        self.image = image
+        self.name = name
+    }
+}
+//format fo

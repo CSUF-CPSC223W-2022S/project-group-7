@@ -10,9 +10,30 @@ import XCTest
 
 class WhatToWear_Project_Group_7Tests: XCTestCase {
     func testInitializer() {
-        let myImage = Clothing(image:"beanie", name:"beanie")
-        XCTAssertEqual(myImage.image, "beanie")
+        let myImage = Sunny(image:"", name:"")
+        XCTAssertEqual(myImage.image, "")
+        XCTAssertEqual(myImage.name, "")
 }
+    func testSunnyDayShirt() {
+        let mySunnyDayShirt = Sunny(image: "shirt", name: "shirt")
+        XCTAssertEqual(mySunnyDayShirt.image, "shirt")
+        XCTAssertEqual(mySunnyDayShirt.name, "shirt")
+    }
+    func testSunnyDayShorts() {
+        let mySunnyDayShorts = Sunny(image: "shorts", name: "shorts")
+        XCTAssertEqual(mySunnyDayShorts.image, "shorts")
+        XCTAssertEqual(mySunnyDayShorts.name, "shorts")
+    }
+    func testSunnyDayShoes() {
+        let mySunnyDayShoes = Sunny(image: "shoes", name: "shoes")
+        XCTAssertEqual(mySunnyDayShoes.image, "shoes")
+        XCTAssertEqual(mySunnyDayShoes.name, "shoes")
+    }
+    func testSunnyDayHat() {
+        let mySunnyDayHat = Sunny(image: "hat", name: "hat")
+        XCTAssertEqual(mySunnyDayHat.image, "hat")
+        XCTAssertEqual(mySunnyDayHat.name, "hat")
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
