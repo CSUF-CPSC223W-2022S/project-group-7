@@ -7,21 +7,37 @@
 
 import Foundation
 
-class Weather {
-    var location: String
-    var tempertature: Double
-    var weatherType: String
-    var windSpeed: Int
+struct Weather {
+    var location: [String] = ["Fullerton, CA", "Los Angeles, CA", "New York, NY", ]
+    var temperature: [Int] = [30, 55, 63, 72, 85, 93, 100]
+    var weatherType: [String] = ["sunny", "rainy", "cloudy", "snowy", "slightly cloudy", "hailing", "light rain"]
+    var windSpeed: [Int] = [0, 3, 5, 10, 12, 17, 20]
+    var randomLocation: String? {
+        return location.randomElement()
+    }
+    var randomTemperature: Int? {
+        return temperature.randomElement()
+    }
+    var randomWeatherType: String? {
+        return weatherType.randomElement()
+    }
+    var randomWindSpeed: Int? {
+        return windSpeed.randomElement()
+    }
     
-    init(_ location: String, at temperature: Double, with weatherType: String, and windSpeed: Int) {
+    
+    init(_ location: [String], at temperature: [Int], with weatherType: [String], and windSpeed: [Int]) {
         self.location = location
-        self.tempertature = temperature
+        self.temperature = temperature
         self.weatherType = weatherType
         self.windSpeed = windSpeed
-        
       }
+    
     func weatherInfo() {
-        print("\(location) @ \(tempertature) with \(weatherType) and \(windSpeed)")
+        print("\(location[0]) @ \(temperature[3]) degrees farenheit with \(weatherType[0]) weather and \(windSpeed[2]) mph")
     }
 }
+    
+
+
 
