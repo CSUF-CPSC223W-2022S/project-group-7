@@ -10,7 +10,7 @@ import Foundation
 struct Weather {
     var location: [String] = ["Fullerton, CA", "Los Angeles, CA", "New York, NY"]
     var temperature: [Int] = [30, 55, 63, 72, 85, 93, 100]
-    var weatherType: [String] = ["sunny", "rainy", "cloudy", "snowy", "slightly cloudy", "hailing", "light rain"]
+    var weatherType: [String] = ["sunny", "rainy", "cloudy", "windy"]
     var windSpeed: [Int] = [0, 3, 5, 10, 12, 17, 20]
     var randomLocation: String? {
         return location.randomElement()
