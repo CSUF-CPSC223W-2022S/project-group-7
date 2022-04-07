@@ -16,6 +16,7 @@
 		7A04E1F427C7E6DF0042F13F /* WhatToWear_Project_Group_7UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A04E1F327C7E6DF0042F13F /* WhatToWear_Project_Group_7UITestsLaunchTests.swift */; };
 		7A04E20127C7E75E0042F13F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7A04E20027C7E75E0042F13F /* .gitignore */; };
 		7A04E20327C7EF750042F13F /* weather_feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A04E20227C7EF750042F13F /* weather_feature.swift */; };
+		7A7A930F27ECD83A008CD714 /* Weather Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7A930E27ECD83A008CD714 /* Weather Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7A04E1F327C7E6DF0042F13F /* WhatToWear_Project_Group_7UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToWear_Project_Group_7UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7A04E20027C7E75E0042F13F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7A04E20227C7EF750042F13F /* weather_feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_feature.swift; sourceTree = "<group>"; };
+		7A7A930E27ECD83A008CD714 /* Weather Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Weather Storyboard.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		7A04E1CA27C7E6D60042F13F = {
 			isa = PBXGroup;
 			children = (
+				7A7A930E27ECD83A008CD714 /* Weather Storyboard.storyboard */,
 				7A04E20227C7EF750042F13F /* weather_feature.swift */,
 				7A04E20027C7E75E0042F13F /* .gitignore */,
 				7A04E1D527C7E6D60042F13F /* WhatToWear Project Group 7 */,
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A04E1DE27C7E6DF0042F13F /* Preview Assets.xcassets in Resources */,
+				7A7A930F27ECD83A008CD714 /* Weather Storyboard.storyboard in Resources */,
 				7A04E20127C7E75E0042F13F /* .gitignore in Resources */,
 				7A04E1DB27C7E6DF0042F13F /* Assets.xcassets in Resources */,
 			);
