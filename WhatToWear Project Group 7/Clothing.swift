@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//structure for each image of their respective clothing item
+// structure for each image of their respective clothing item
 struct Sunny {
     var image:String = ""
     var name:String = ""
