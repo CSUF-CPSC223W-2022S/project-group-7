@@ -11,12 +11,17 @@
 		7A0C0A4F27FF44C2004A7EBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C0A4E27FF44C2004A7EBE /* SceneDelegate.swift */; };
 		7A0C0A5127FF44C2004A7EBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C0A5027FF44C2004A7EBE /* ViewController.swift */; };
 		7A0C0A5427FF44C2004A7EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C0A5227FF44C2004A7EBE /* Main.storyboard */; };
-		7A0C0A5627FF44C5004A7EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C0A5527FF44C5004A7EBE /* Assets.xcassets */; };
 		7A0C0A5927FF44C5004A7EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C0A5727FF44C5004A7EBE /* LaunchScreen.storyboard */; };
 		7A0C0A6427FF44C5004A7EBE /* Project_7_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C0A6327FF44C5004A7EBE /* Project_7_v2Tests.swift */; };
 		7A0C0A6E27FF44C5004A7EBE /* Project_7_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C0A6D27FF44C5004A7EBE /* Project_7_v2UITests.swift */; };
 		7A0C0A7027FF44C5004A7EBE /* Project_7_v2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C0A6F27FF44C5004A7EBE /* Project_7_v2UITestsLaunchTests.swift */; };
 		7A0C0A7D27FF506B004A7EBE /* weather_feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C0A7C27FF506B004A7EBE /* weather_feature.swift */; };
+		7AB42F91282191AE00D2EABF /* SunnyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB42F90282191AE00D2EABF /* SunnyCollectionViewController.swift */; };
+		7AB42F93282191C100D2EABF /* WindyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB42F92282191C100D2EABF /* WindyCollectionViewController.swift */; };
+		7AB42F95282191E700D2EABF /* RainyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB42F94282191E700D2EABF /* RainyCollectionViewController.swift */; };
+		7AB42F97282191ED00D2EABF /* CloudyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB42F96282191ED00D2EABF /* CloudyCollectionViewController.swift */; };
+		7AB42F99282191FE00D2EABF /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB42F98282191FE00D2EABF /* Clothing.swift */; };
+		7AB42F9B2821928400D2EABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB42F9A2821928400D2EABF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +47,6 @@
 		7A0C0A4E27FF44C2004A7EBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7A0C0A5027FF44C2004A7EBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A0C0A5327FF44C2004A7EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A0C0A5527FF44C5004A7EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0C0A5827FF44C5004A7EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A0C0A5A27FF44C5004A7EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A0C0A5F27FF44C5004A7EBE /* Project 7 v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 7 v2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +55,12 @@
 		7A0C0A6D27FF44C5004A7EBE /* Project_7_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_7_v2UITests.swift; sourceTree = "<group>"; };
 		7A0C0A6F27FF44C5004A7EBE /* Project_7_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_7_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7A0C0A7C27FF506B004A7EBE /* weather_feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_feature.swift; sourceTree = "<group>"; };
+		7AB42F90282191AE00D2EABF /* SunnyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SunnyCollectionViewController.swift; path = "../../project-group-7/WhatToWear Project Group 7/SunnyCollectionViewController.swift"; sourceTree = "<group>"; };
+		7AB42F92282191C100D2EABF /* WindyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WindyCollectionViewController.swift; path = "../../project-group-7/WhatToWear Project Group 7/WindyCollectionViewController.swift"; sourceTree = "<group>"; };
+		7AB42F94282191E700D2EABF /* RainyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RainyCollectionViewController.swift; path = "../../project-group-7/WhatToWear Project Group 7/RainyCollectionViewController.swift"; sourceTree = "<group>"; };
+		7AB42F96282191ED00D2EABF /* CloudyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudyCollectionViewController.swift; path = "../../project-group-7/WhatToWear Project Group 7/CloudyCollectionViewController.swift"; sourceTree = "<group>"; };
+		7AB42F98282191FE00D2EABF /* Clothing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Clothing.swift; path = "../../project-group-7/WhatToWear Project Group 7/Clothing.swift"; sourceTree = "<group>"; };
+		7AB42F9A2821928400D2EABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../project-group-7/WhatToWear Project Group 7/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +116,14 @@
 				7A0C0A5027FF44C2004A7EBE /* ViewController.swift */,
 				7A0C0A7C27FF506B004A7EBE /* weather_feature.swift */,
 				7A0C0A5227FF44C2004A7EBE /* Main.storyboard */,
-				7A0C0A5527FF44C5004A7EBE /* Assets.xcassets */,
+				7AB42F9A2821928400D2EABF /* Assets.xcassets */,
 				7A0C0A5727FF44C5004A7EBE /* LaunchScreen.storyboard */,
+				7AB42F98282191FE00D2EABF /* Clothing.swift */,
 				7A0C0A5A27FF44C5004A7EBE /* Info.plist */,
+				7AB42F90282191AE00D2EABF /* SunnyCollectionViewController.swift */,
+				7AB42F92282191C100D2EABF /* WindyCollectionViewController.swift */,
+				7AB42F94282191E700D2EABF /* RainyCollectionViewController.swift */,
+				7AB42F96282191ED00D2EABF /* CloudyCollectionViewController.swift */,
 			);
 			path = "Project 7 v2";
 			sourceTree = "<group>";
@@ -235,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A0C0A5927FF44C5004A7EBE /* LaunchScreen.storyboard in Resources */,
-				7A0C0A5627FF44C5004A7EBE /* Assets.xcassets in Resources */,
+				7AB42F9B2821928400D2EABF /* Assets.xcassets in Resources */,
 				7A0C0A5427FF44C2004A7EBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB42F93282191C100D2EABF /* WindyCollectionViewController.swift in Sources */,
+				7AB42F95282191E700D2EABF /* RainyCollectionViewController.swift in Sources */,
+				7AB42F97282191ED00D2EABF /* CloudyCollectionViewController.swift in Sources */,
 				7A0C0A5127FF44C2004A7EBE /* ViewController.swift in Sources */,
 				7A0C0A4D27FF44C2004A7EBE /* AppDelegate.swift in Sources */,
 				7A0C0A4F27FF44C2004A7EBE /* SceneDelegate.swift in Sources */,
 				7A0C0A7D27FF506B004A7EBE /* weather_feature.swift in Sources */,
+				7AB42F99282191FE00D2EABF /* Clothing.swift in Sources */,
+				7AB42F91282191AE00D2EABF /* SunnyCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
