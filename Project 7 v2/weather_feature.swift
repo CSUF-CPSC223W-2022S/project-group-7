@@ -33,6 +33,7 @@ struct Weather {
 //        self.windSpeed = windSpeed
 //      }
 //
+//
     func weatherInfo() -> String {
         return ("\(randomLocation) @ \(randomTemperature) degrees farenheit with \(randomWeatherType) weather and \(randomWindSpeed) mph winds")
     }
