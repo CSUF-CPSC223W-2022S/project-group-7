@@ -7,17 +7,29 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
+    @IBOutlet weak var firstLabel: UILabel!
     @IBOutlet weak var weatherInfoLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
-    @IBAction func weatherInfoButton(_ sender: Any) {
-        weatherInfoLabel.text = "Hello"
+    
+    @IBAction func weatherButton(_ sender: Any) {
+        let weatherVar = Weather()
+        firstLabel.text = weatherVar.weatherInfo()
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
