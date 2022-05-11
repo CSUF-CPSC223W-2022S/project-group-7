@@ -109,7 +109,6 @@
 		7A04E1D527C7E6D60042F13F /* WhatToWear Project Group 7 */ = {
 			isa = PBXGroup;
 			children = (
-				7A069E2A27D948A900727CC3 /* Collection Viewer */,
 				7A04E1D627C7E6D60042F13F /* WhatToWear_Project_Group_7App.swift */,
 				7A069E2827D943FB00727CC3 /* Main.storyboard */,
 				7A069E2F27D9D2F300727CC3 /* Clothing.swift */,
@@ -147,13 +146,6 @@
 				7A04E1F327C7E6DF0042F13F /* WhatToWear_Project_Group_7UITestsLaunchTests.swift */,
 			);
 			path = "WhatToWear Project Group 7UITests";
-			sourceTree = "<group>";
-		};
-		7A069E2A27D948A900727CC3 /* Collection Viewer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Collection Viewer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
