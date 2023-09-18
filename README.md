@@ -1,6 +1,5 @@
 # WhatToWear - Your Personalized Weather-based Clothing Recommender
 
-![App Screenshot](screenshot.png)
 
 ## Overview
 
@@ -47,7 +46,6 @@ WhatToWear respects your privacy. We do not collect or store personal data unles
 
 ## Credits
 
-- Weather data provided by [OpenWeatherMap](https://openweathermap.org/).
 - Icons and images from [Iconfinder](https://www.iconfinder.com/) and [Unsplash](https://unsplash.com/).
 
 ## License
